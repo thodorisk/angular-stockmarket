@@ -1,0 +1,18 @@
+.stock-card {
+    text-align: center;
+
+    &.increased {
+        background-color: #33eb91;
+        color: #fff;
+    }
+
+    &.decreased {
+        background-color: #f50057;
+        color: #fff;
+    }
+}
+
+.mdl-card__inner {
+    width: 100%;
+    margin: auto;
+}
